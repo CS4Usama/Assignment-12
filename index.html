@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Slider</title>
+    <link rel="icon" href="resources/JS-Slider.png" type="image/png">
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+
+    <h1>16469 (Usama) – JavaScript Slider</h1>    
+    <div id="container">
+
+        <div class="image-count">1 / 5</div>
+        <img src="resources/img1.JPG" alt="Slider Image 1">
+        <div class="caption">Caption Image 1</div>
+
+        <div class="image-count">2 / 5</div>
+        <img src="resources/img2.JPG" alt="Slider Image 2">
+        <div class="caption">Caption Image 2</div>
+
+        <div class="image-count">3 / 5</div>
+        <img src="resources/img3.png" alt="Slider Image 3">
+        <div class="caption">Caption Image 3</div>
+
+        <div class="image-count">4 / 5</div>
+        <img src="resources/img4.JPG" alt="Slider Image 4">
+        <div class="caption">Caption Image 4</div>
+
+        <div class="image-count">5 / 5</div>
+        <img src="resources/img5.JPG" alt="Slider Image 5">
+        <div class="caption">Caption Image 5</div>
+
+        <a class="prev" onclick="moveSlides(-1)">&#10094</a>
+        <a class="next" onclick="moveSlides(1)">&#10095</a>
+    </div>
+
+    <div style="text-align: center;">
+        <span class="dot" onclick="slide(1)"></span>
+        <span class="dot" onclick="slide(2)"></span>
+        <span class="dot" onclick="slide(3)"></span>
+        <span class="dot" onclick="slide(4)"></span>
+        <span class="dot" onclick="slide(5)"></span>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
